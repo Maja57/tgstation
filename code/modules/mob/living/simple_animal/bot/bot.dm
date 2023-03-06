@@ -1067,7 +1067,7 @@ Pass a positive integer as an argument to override a bot's default speed.
 					var/prevDir = get_dir(prevprevT, prevT)
 					var/mixDir = direction|prevDir
 					if(ISDIAGONALDIR(mixDir))
-						prevI.dir = mixDir
+da						prevI.dir = mixDir
 						if(prevDir & (NORTH|SOUTH))
 							var/matrix/ntransform = matrix()
 							ntransform.Turn(90)
